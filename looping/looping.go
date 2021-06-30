@@ -15,4 +15,12 @@ func main() {
 		fmt.Println(k)
 		k++
 	}
+
+	// looping menggunakan range
+	num := []int{5, 2, 10, 4, 11, 61, 87, 8, 90}
+
+	for key, val := range num {
+		fmt.Printf("key %d ", key)
+		fmt.Printf("val %d ", val)
+	}
 }
