@@ -11,12 +11,12 @@ func main() {
 	luas, keliling := FungsiMultipeReturun(diameter)
 
 	fmt.Printf("luas =  %f ", luas)
-	fmt.Printf("keliling =  %f ", keliling)
+	fmt.Printf("keliling =  %f \n", keliling)
 
-	var NamaAnda = [2]string{"dian", "sastro"}
+	var NamaAnda = [2]string{"dian ", "sastro"}
 
 	depan, belakang := SiapaNama(NamaAnda)
-	fmt.Println(depan)
+	fmt.Print(depan)
 	fmt.Println(belakang)
 
 }
