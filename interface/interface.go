@@ -5,6 +5,11 @@ import (
 	"math"
 )
 
+/**
+interface merukan sebuah tipe data,
+di dalam interface terdapat kumpulan definisi method yang tidak memiliki nilai/ isi
+*/
+
 type hitung interface {
 	luas() float64
 	keliling() float64
