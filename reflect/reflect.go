@@ -5,6 +5,10 @@ import (
 	"reflect"
 )
 
+/**
+Reflection adalah teknik untuk inspeksi variabel, mengambil informasi dari variabel tersebut atau bahkan memanipulasinya.
+*/
+
 func main() {
 
 	var number = 32
