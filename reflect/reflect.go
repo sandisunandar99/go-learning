@@ -6,11 +6,11 @@ import (
 )
 
 /**
-Reflection adalah teknik untuk inspeksi variabel, mengambil informasi dari variabel tersebut atau bahkan memanipulasinya.
+Reflection adalah teknik untuk inspeksi variabel,
+mengambil informasi dari variabel tersebut atau bahkan memanipulasinya.
 */
 
 func main() {
-
 	var number = 32
 	var valueOf = reflect.ValueOf(number)
 
