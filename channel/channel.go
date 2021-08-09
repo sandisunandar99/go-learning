@@ -16,6 +16,7 @@ Pengiriman dan penerimaan data pada channel bersifat blocking atau synchronous.
 func main() {
 	runtime.GOMAXPROCS(2)
 
+	// inisialisasi channel menggunakan make
 	var msg = make(chan string)
 
 	var Hallo = func(w string) {
