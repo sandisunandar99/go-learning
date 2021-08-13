@@ -16,10 +16,10 @@ func main() {
 	contohExit()
 }
 
-func contohDefer() {
-	defer fmt.Println("awal")
-	fmt.Println("akhir")
-}
+// func contohDefer() {
+// 	defer fmt.Println("awal")
+// 	fmt.Println("akhir")
+// }
 
 func contohExit() {
 	fmt.Println("awal")
